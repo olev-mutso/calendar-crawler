@@ -45,7 +45,7 @@ export function erauVite(options: Partial<Config> = {}): Plugin {
         const tsFile = createFilePath([root, config.rootdir], config.tsFilename);
         writeFile({ fullPath: tsFile.fullPath, content: calendar.ts });
 
-        const jsonFile = createFilePath([root, config.rootdir], config.jsonFilename);
+        const jsonFile = createFilePath([root, 'public'], config.jsonFilename);
         writeFile({ fullPath: jsonFile.fullPath, content: calendar.json });
       })
       .then(data => {
