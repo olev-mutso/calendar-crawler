@@ -283,7 +283,6 @@ export class HtmlVisitor {
     }).join(',\r\n')
     return [
       "import { Calendar } from './calendar-types'",
-      "import { DateTime } from 'luxon'",
       "",
       "",
       "export const calendar: Calendar = [",
