@@ -1,0 +1,43 @@
+{
+  "type": "module",
+  "name": "calendar-crawler",
+  "scripts": {
+    "start": "vite",
+    "build": "NODE_ENV=production vite build --mode production",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "gh-pages": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^18.0.0",
+    "tsx": "^4.19.3",
+
+    "@types/lodash": "^4.17.7",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "5.59.7",
+    "@typescript-eslint/parser": "5.59.7",
+    "@typescript-eslint/typescript-estree": "^5.59.7",
+    "@vitejs/plugin-react": "^4.2.1",
+
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^5.5.2",
+    "vite": "^5.0.8",
+    "vite-plugin-checker": "^0.6.2",
+    "vite-plugin-dts": "^4.2.3",
+    "vite-plugin-svgr": "^4.2.0",
+    "node-fetch": "^3.3.2",
+    "node-html-parser": "^7.0.1"
+  },
+  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228",
+  "dependencies": {
+    "luxon": "^3.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
